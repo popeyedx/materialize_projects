@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <title>みんなの政治</title>
+</head>
+
+<body class="grey lighten-4">
+  
+  <!--Navbar-->
+  <nav class="blue darken-2">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">みんなの政治</a>
+        <a href="#!" data-activates="side-nav" class="button-collapse show-on-large right">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">管理画面</a>
+          </li>
+          <li class="active">
+            <a href="posts.html">投稿一覧</a>
+          </li>
+          <li>
+            <a href="categories.html">カテゴリ</a>
+          </li>
+          <li>
+            <a href="comments.html">コメント</a>
+          </li>
+          <li>
+            <a href="users.html">ユーザー</a>
+          </li>
+        </ul>
+        <!--Side nav-->
+        <ul id="side-nav" class="side-nav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="img/ocean.jpg" alt="">
+              </div>
+              <a href="#!">
+                <img src="img/person1.jpg" class="circle" alt="">
+              </a>
+              <a href="#!">
+                <span class="name white-text">John Doe</span>
+              </a>
+              <a href="#!">
+                <span class="email white-text">jdoe@example.com</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="index.html"><i class="material-icons">dashboard</i>Dashboard</a>
+          </li>
+          <li>
+            <a href="posts.html"><i class="material-icons">create</i>Posts</a>
+          </li>
+          <li>
+            <a href="categories.html"><i class="material-icons">folder</i>Categories</a>
+          </li>
+          <li>
+            <a href="comments.html"><i class="material-icons">comment</i>Comments</a>
+          </li>
+          <li>
+            <a href="users.html"><i class="material-icons">people</i>Users</a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a class="subheader">Account Controls</a>
+          </li>
+          <li>
+            <a href="login.html" class="waves-effect"><i class="material-icons">close</i>Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!--Section: Posts-->
+  <section class="section section-posts grey-lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">投稿一覧</span>
+              <table class="striped">
+                <thead>
+                  <tr>
+                    <th>タイトル</th>
+                    <th>カテゴリ</th>
+                    <th>投稿日時</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>非正規雇用のデメリット</td>
+                    <td>雇用・失業問題</td>
+                    <td>2018/5/2</td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-2">詳細をみる</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>隠れ待機児童の状況</td>
+                    <td>待機児童対策</td>
+                    <td>2018/5/7</td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-2">詳細をみる</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>外国人の雇用に関して</td>
+                    <td>雇用・失業問題</td>
+                    <td>2018/5/11</td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-2">詳細をみる</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td> 「起業大国」を目指して</td>
+                    <td>働き方改革</td>
+                    <td>2018/5/17</td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-2">詳細をみる</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>幼児教育の無償化</td>
+                    <td>待機児童対策</td>
+                    <td>2018/5/20</td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-2">詳細をみる</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>TPPの課題と今後</td>
+                    <td>TPP協定</td>
+                    <td>2018/5/28</td>
+                    <td>
+                      <a href="details.html" class="btn blue lighten-2">詳細をみる</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-action center">
+              <ul class="pagination">
+                <li class="disabled">
+                  <a href="#!" class="blue-text">
+                    <i class="material-icons">chevron_left</i>
+                  </a>
+                </li>
+                <li class="active blue lighten-2">
+                  <a href="#!" class="white-text">1</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">2</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">3</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">4</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">5</a>
+                </li>
+                <li class="waves-effect">
+                  <a href="#!" class="blue-text">
+                    <i class="material-icons">chevron_right</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="section blue darken-2 white-text center">
+    <p>Madmin Panel Copyright &copy; 2018</p>
+  </footer>
+  
+  <!--Fixed Action Button-->
+  <div class="fixed-action-btn">
+    <a href="#post-modal" class="modal-trigger btn-floating btn-large red">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+  
+  
+  <!-- Preloader -->
+  <div class="loader preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Add Post Modal-->
+  <div id="post-modal" class="modal">
+    <div class="modal-content">
+      <h4>Add Post</h4>
+      <form>
+        <div class="input-field">
+          <input type="text" id="title">
+          <label for="title">Title</label>
+        </div>
+        <div class="input-field">
+          <select>
+            <option value="" disabled selected>Select option</option>
+            <option value="1">Web Development</option>
+            <option value="2">Graphic Design</option>
+            <option value="3">Tech Gadgets</option>
+            <option value="4">Other</option>
+          </select>
+          <label>Category</label>
+        </div>
+        <div class="input-field">
+          <textarea name="body" id="body" class="materialize-textarea"></textarea>
+          <label for="body">Body</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+  <script>
+    // Hide sections
+    $('.section').hide();
+    
+    setTimeout(function() {
+      
+      $(document).ready(function () {
+        // Show sections
+        $('.section').fadeIn();
+        
+        // Hide Preloader
+        $('.loader').fadeOut();
+        
+        // Init Side nav
+        $('.button-collapse').sideNav();
+
+        // Init Modal
+        $('.modal').modal();
+        
+        // Init Select
+        $('select').material_select();
+        
+        // CKEditor
+        CKEDITOR.replace( 'body' );
+        
+      });  // timeOut
+      
+    }, 500);  // function
+    
+  </script>
+</body>
+
+</html>
